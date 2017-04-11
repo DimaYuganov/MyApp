@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+<?language javascript?>
+
+<GridPane alignment="center" hgap="10" prefHeight="175.0" prefWidth="255.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Geocoding.Controller">
+
+
+
+    <Text fx:id="helo" text="Geocoding process" />
+   <Button fx:id="button_1" mnemonicParsing="false" onMouseClicked="#setActiontarget1" text="Start Process" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+
+   <ProgressBar fx:id="progressBar" prefHeight="23.0" prefWidth="466.0" progress="0.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+
+
+
+    <stylesheets>
+        <URL value="@GoogleMapCSS.css" />
+    </stylesheets>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
